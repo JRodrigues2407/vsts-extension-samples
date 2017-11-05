@@ -1,0 +1,149 @@
+@charset "utf-8";
+/* CSS Document */
+ *{margin:0px;
+   padding:0px;
+ }
+ ul{
+   list-style:none;
+ }
+ a{
+   text-decoration:none;
+   cursor:pointer;
+ }
+ img{
+   border:none;
+ }
+ body{
+	   font-family:arial;
+ }
+ .inner{width:960px;margin:0 auto;}
+ .clear:after{content:'200B';display:block;font-size:0;height:0;clear:both;}
+/*IE7/6*/
+.clear{*zoom:1}
+ .header{
+   background:url(../helloWord/images/page-top-bg.jpg) repeat-x;
+ }
+ .header .h_inner{
+   width:960px;
+   height:130px;
+   margin:0px auto;
+ }
+ .header .h_inner .logo{
+   width:283px;
+   height:110px;
+   background:url(../helloWord/images/nf-logo.jpg) no-repeat left top;
+   float:left;
+ }
+ .header .h_inner .logo:hover{
+   background:url(../helloWord/images/nf-logo.jpg) no-repeat left bottom;
+ }
+ .header .h_inner .logo a{
+  width:283px;
+  height:110px;
+  display:block;
+ }
+ .header .h_inner .ycnav{display:none;float:right;}
+ .header .h_inner .ycnav i{
+  font-size:50px;
+  color:#444;
+  line-height:110px;
+  margin-right:2%;	 
+  }
+ .header .h_inner .nav{
+  float:right;
+  padding-top:20px;
+ }
+ .header .h_inner .nav ul{
+  height:84px;
+ }
+ .header .h_inner .nav li{
+  float:left;
+  height:84px;
+ }
+ .header .h_inner .nav .abo{
+  width:147px;
+  height:84px;
+  display:block;
+  background:url(../helloWord/images/nav.jpg) no-repeat left top;
+ }
+ .header .h_inner .nav .abo:hover{
+  background:url(../helloWord/images/nav.jpg) no-repeat left -84px;
+ }
+ .header .h_inner .nav .blo{
+  width:136px;
+  height:84px;
+  display:block;
+  background:url(../helloWord/images/nav.jpg) no-repeat -147px top;
+ }
+ .header .h_inner .nav .blo:hover{
+  background:url(../helloWord/images/nav.jpg) no-repeat -147px -84px;
+ }
+ .header .h_inner .nav .spe{
+  width:196px;
+  height:84px;
+  display:block;
+  background:url(../helloWord/images/nav.jpg) no-repeat -283px top;
+ }
+ .header .h_inner .nav .spe:hover{
+  background:url(../helloWord/images/nav.jpg) no-repeat -283px -84px;
+ }
+ .header .h_inner .nav .npic{
+  width:77px;
+  height:84px;
+  display:block;
+  background:url(../helloWord/images/nav.jpg) no-repeat -479px top;
+ }
+ .header .h_inner .nav .npic:hover{
+  background:url(../helloWord/images/nav.jpg) no-repeat -479px -84px;
+ }
+ .header .h_inner .nav li .n_pic{
+  width:34px;
+  height:34px;
+  display:block;
+  margin-top:20px;
+ }
+ .footer{
+  height:191px;
+  background:#a5a5a5;
+ }
+ .footer .f_inner{
+  width:960px;
+  height:28px;
+  margin:0px auto;
+  padding-top:25px;
+  background:url(../helloWord/images/footer-shadow.jpg) no-repeat;
+ }
+ .footer .f_inner div{
+  float:left;
+  height:28px;
+  line-height:28px;
+  background:url(../helloWord/images/nf-n-logo%2028x28.jpg) no-repeat;
+  padding-left:37px;
+  color:#fff;
+  font-size:14px;	 
+ }
+ .footer .f_inner div span{
+  font-weight:bolder;	 
+ }
+ .footer .f_inner ul{
+  height:28px;
+  background:url(../helloWord/images/ttab-logo-footer.jpg) no-repeat right;
+  float:right;
+  padding-right:164px;	 
+ }
+ .footer .f_inner li{
+  float:left; 
+ }
+ .footer .f_inner li a{
+  color:#fff;
+  font-size:14px;
+  text-decoration:underline;	 
+ }
+ .footer .f_inner li a:hover{
+  text-decoration:none;	 
+ }
+ .footer .f_inner li span{
+  margin:0px 13px;
+  color:#fff;	 
+
+ }

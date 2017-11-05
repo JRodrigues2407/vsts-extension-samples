@@ -1,0 +1,387 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link href="index.css" type="text/css" rel="stylesheet"/>
+</head>
+<body>
+
+<!--头部：start-->
+<div class="header">
+    <h3>宝山总进度浏览</h3>
+    <div class="time-box">
+        <div class="time-square">
+            <span id="JS_hour"></span>
+            <div class="complicated complicated-left-top">
+                <div class="border-first"></div>
+                <div class="border-second"></div>
+            </div>
+            <div class="complicated complicated-right-top">
+                <div class="border-first"></div>
+                <div class="border-second"></div>
+            </div>
+            <div class="complicated complicated-left-bottom">
+                <div class="border-first"></div>
+                <div class="border-second"></div>
+            </div>
+            <div class="complicated complicated-right-bottom">
+                <div class="border-first"></div>
+                <div class="border-second"></div>
+            </div>
+        </div>
+        <div class="time-dot">:</div>
+        <div class="time-square">
+            <span id="JS_minutes"></span>
+            <div class="complicated complicated-left-top">
+                <div class="border-first"></div>
+                <div class="border-second"></div>
+            </div>
+            <div class="complicated complicated-right-top">
+                <div class="border-first"></div>
+                <div class="border-second"></div>
+            </div>
+            <div class="complicated complicated-left-bottom">
+                <div class="border-first"></div>
+                <div class="border-second"></div>
+            </div>
+            <div class="complicated complicated-right-bottom">
+                <div class="border-first"></div>
+                <div class="border-second"></div>
+            </div>
+        </div>
+        <div class="time-square time-date">
+            <span id="JS_date"></span>
+            <div class="complicated complicated-left-top">
+                <div class="border-first"></div>
+                <div class="border-second"></div>
+            </div>
+            <div class="complicated complicated-right-top">
+                <div class="border-first"></div>
+                <div class="border-second"></div>
+            </div>
+            <div class="complicated complicated-left-bottom">
+                <div class="border-first"></div>
+                <div class="border-second"></div>
+            </div>
+            <div class="complicated complicated-right-bottom">
+                <div class="border-first"></div>
+                <div class="border-second"></div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!--正文：start-->
+<div class="content">
+    <div class="top-left-top line-cross"></div>
+    <div class="top-left-left line-vertical"></div>
+    <div class="top-right-top line-cross"></div>
+    <div class="top-right-right line-vertical"></div>
+    <div class="bottom-left-left line-vertical"></div>
+    <div class="bottom-left-bottom line-cross"></div>
+    <div class="bottom-right-right line-vertical"></div>
+    <div class="bottom-right-bottom line-cross"></div>
+
+    <div class="content-map">
+        <div class="top-right-right line-vertical"></div>
+        <div class="bottom-right-right line-vertical"></div>
+        <div class="top-right-top line-cross"></div>
+        <div class="bottom-right-right line-cross"></div>
+        <div class="content-box">
+            <div class="map-info">
+                <div class="equipment-info">
+                    <table class="equipment-inner clear">
+                        <tr>
+                            <td class="item">
+                                <p class="num">1005<span class="unit">台</span></p>
+                                <p class="item-name">设备总数</p>
+                                <div class="line"></div>
+                            </td>
+
+                            <td class="item">
+                                <p class="num">1005<span class="unit">台</span></p>
+                                <p class="item-name">设备总价值</p>
+                                <div class="line"></div>
+                            </td>
+                            <td class="item">
+                                <p class="num">1005<span class="unit">台</span></p>
+                                <p class="item-name">设备再用率</p>
+                                <div class="line"></div>
+                            </td>
+                            <td class="item">
+                                <p class="num">1005<span class="unit">台</span></p>
+                                <p class="item-name">维修设备数</p>
+                            </td>
+                        </tr>
+
+                        <div class="triangle"></div>
+                    </table>
+                </div>
+                <div id="map" class="map" style="width: 100%;height: 30rem;margin: 0 auto"></div>
+            </div>
+            <div class="hospital-info">
+                <div class="map-select" id="JS_hospital_sel">
+                    <div class="map-select-title ">
+                        <span class="display-middle map-select-text">全国</span>
+                        <span class="map-select-arrow"></span>
+                    </div>
+                    <div class="map-select-content" id="JS_hospital_list" style="display: none">
+                        <div class="map-select-line">
+                            <span class="select-con-label display-middle">上海市宝山区第一人民医院</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="hospital-alert hospital-first">
+                    <div class="hospital-alert-content">
+                        <div class="hospital-title">上海市XXX医院</div>
+                        <div class="hospital-text">设备资产：¥12.000000</div>
+                        <div class="hospital-text">设备总数：三甲</div>
+                        <div class="hospital-text">新增设备数：张维</div>
+                        <div class="hospital-text">本月维修：2016/12/03</div>
+                        <div class="hospital-text">申请预算：2016/12/03</div>
+                        <div class="hospital-text">预算进度：2016/12/03</div>
+                    </div>
+                    <div class="alert-top-left alert-radius-border" ></div>
+                    <div class="alert-top-right alert-radius-border" ></div>
+                    <div class="alert-bottom-left alert-radius-border" ></div>
+                    <div class="alert-bottom-right alert-radius-border"></div>
+                </div>
+                <div class="hospital-alert hospital-second">
+                    <div class="hospital-alert-content">
+                        <div class="hospital-title"  style="color: #ddb926;">上海市XXX医院</div>
+                        <div class="hospital-text">设备资产：¥12.000000</div>
+                        <div class="hospital-text">设备总数：三甲</div>
+                        <div class="hospital-text">新增设备数：张维</div>
+                        <div class="hospital-text">本月维修：2016/12/03</div>
+                        <div class="hospital-text">申请预算：2016/12/03</div>
+                        <div class="hospital-text">预算进度：2016/12/03</div>
+                    </div>
+                    <div class="alert-top-left alert-radius-border"></div>
+                    <div class="alert-top-right alert-radius-border"></div>
+                    <div class="alert-bottom-left alert-radius-border"></div>
+                    <div class="alert-bottom-right alert-radius-border"></div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+    <div class="manage-box position-absolute">
+        <div class="top-left-left line-cross"></div>
+        <div class="bottom-left-bottom line-cross"></div>
+        <div class="manage-content">
+            <div class="border-none radius-none-bottom-right radius-none-bottom-left">
+                <div class="manage-line-radius clear">
+                    <div class="equipment-data">
+                        <h3>新增设备</h3>
+                        <div class="num">
+                            <h6>医院数量</h6>
+                            <div class="num-detail"><span>26</span>台</div>
+                            <div class="triangle"></div>
+                        </div>
+                        <div class="num">
+                            <h6>医院数量</h6>
+                            <div class="num-detail"><span>26</span>台</div>
+                            <div class="triangle"></div>
+                            <div class="triangle"></div>
+                        </div>
+                        <ul class="list">
+                            <li><i class="blue"></i>医院：</li>
+                            <li><i class="yellow"></i>医院：</li>
+                            <li><i class="gray"></i>医院：</li>
+
+                        </ul>
+                    </div>
+                    <div class="equipment-pic">
+                        <div class="proportion-pic"></div>
+                        <div class="data-show data-show-top">
+                            <div class="lines">
+                                <div class="line across"></div>
+                                <div class="line vertical"></div>
+                                <div class="line slope"></div>
+                            </div>
+                            <div class="desc"><span>医院</span>20台<br/>30%<br/>2016/12/13</div>
+                        </div>
+                        <div class="data-show data-show-down">
+                            <div class="lines">
+                                <div class="line across"></div>
+                                <div class="line vertical"></div>
+                                <div class="line slope"></div>
+                            </div>
+                            <div class="desc"><span>医院</span>20台<br/>30%<br/>2016/12/13</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="manage-arrow arrow"></div>
+                <div class="border-gradient-top"></div>
+                <div class="border-gradient-left"></div>
+                <div class="border-gradient-bottom"></div>
+                <div class="alert-top-left"></div>
+            </div>
+            <div class="border-none radius-none repair-manage">
+                <div class="manage-line-radius clear">
+                    <div class="equipment-data">
+                        <h3>维修费用</h3>
+                        <div class="num">
+                            <h6>医院数量</h6>
+                            <div class="num-detail"><span>26</span>台</div>
+                            <div class="triangle"></div>
+                        </div>
+                        <div class="num">
+                            <h6>医院数量</h6>
+                            <div class="num-detail"><span>26</span>台</div>
+                            <div class="triangle"></div>
+                            <div class="triangle"></div>
+                        </div>
+                        <ul class="list">
+                            <li><i class="blue"></i>医院：30台</li>
+                            <li><i class="yellow"></i>医院：10%</li>
+                            <li><i class="gray"></i>医院：30台</li>
+                        </ul>
+                    </div>
+                    <div class="proportion">
+                        <div class="border-box">
+                            <ul class="vertical-data vertical-data-left">
+                                <li>50000</li>
+                                <li>40000</li>
+                                <li>30000</li>
+                                <li>20000</li>
+                                <li>10000</li>
+                                <li>0</li>
+                            </ul>
+                            <ul class="vertical-data vertical-data-right">
+                                <li>100%</li>
+                                <li>80%</li>
+                                <li>60%</li>
+                                <li>40%</li>
+                                <li>20%</li>
+                                <li>0</li>
+                            </ul>
+                            <div class="reticulation-bg-across">
+                                <div class="reticulation-line"></div>
+                                <div class="reticulation-line"></div>
+                                <div class="reticulation-line"></div>
+                            </div>
+                            <div class="reticulation-bg-vertical">
+                                <div class="reticulation-line"></div>
+                                <div class="reticulation-line"></div>
+                                <div class="reticulation-line"></div>
+                            </div>
+
+                            <div class="columns">
+                                <div class="column-data column-first" id="JS_columns_first">
+                                    <div class="mark"><img src="NO.1.png"></div>
+                                </div>
+                                <div class="column-data column-second" id="JS_columns_second">
+                                    <div class="mark mark-yellow"><img src="NO.2.png"></div>
+                                </div>
+                                <div class="column-data column-third" id="JS_columns_third">
+                                    <div class="mark mark-gray"><img src="qita.png"></div>
+                                </div>
+                            </div>
+
+                            <div class="tortuous-floor" id="JS_container">
+                                <div class="dot dot-first"></div>
+                                <div class="dot dot-second"></div>
+                                <div class="dot dot-third"></div>
+                                <canvas id="tor-firs"></canvas>
+                                <canvas id="tor-second"></canvas>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+                <div class="manage-arrow arrow"></div>
+            </div>
+            <div class="border-none radius-none-bottom-right radius-none-bottom-left" style="height: 33%;">
+                <div class="manage-line-radius equipment-list">
+                    <h2>在用率</h2>
+                    <div class="bg-list">
+                        <ul>
+                            <li class="t-odd">
+                                <div>医院</div>
+                                <div>总在用率</div>
+                                <div>高质设备在用率</div>
+                            </li>
+                            <li>
+                            </li>
+                            <li class="t-odd">
+                            </li>
+                            <li>
+                            </li>
+                            <li class="t-odd">
+                            </li>
+                            <li>
+                            </li>
+                            <li class="t-odd">
+                            </li>
+                            <li>
+                            </li>
+                        </ul>
+                    </div>
+
+                    <div class="bg-list list-scroll  ">
+                        <ul id="JS_distance" >
+                            <li>
+                                <div>上海医院</div>
+                                <div>67%</div>
+                                <div>40%</div>
+                            </li>
+                            <li>
+                                <div>宁波市医院</div>
+                                <div>6%</div>
+                                <div>4%</div>
+                            </li>
+                            <li>
+                                <div>黄埔医院</div>
+                                <div>7%</div>
+                                <div>50%</div>
+                            </li>
+                            <li>
+                                <div>厦门宝山区医院</div>
+                                <div>90%</div>
+                                <div>55%</div>
+                            </li>
+                            <li>
+                                <div>高新区第一人民医院</div>
+                                <div>39%</div>
+                                <div>88%</div>
+                            </li>
+                            <li>
+                                <div>黄埔医院</div>
+                                <div>7%</div>
+                                <div>50%</div>
+                            </li>
+                            <li>
+                                <div>厦门宝山区医院</div>
+                                <div>90%</div>
+                                <div>55%</div>
+                            </li>
+                        </ul>
+                    </div>
+
+                </div>
+                <div class="manage-arrow arrow"></div>
+                <div class="border-gradient-top"></div>
+                <div class="border-gradient-left"></div>
+                <div class="border-gradient-bottom"></div>
+                <div class="alert-top-left"></div>
+            </div>
+        </div>
+        <div class="manage-long-left-bottom"></div>
+        <div class="manage-long-bottom-left"></div>
+    </div>
+
+
+
+
+</div>
+
+
+<script src="jquery.min.js"></script>
+<script src="echarts.min.js"></script>
+<script src="data_view.js"></script>
+
+</body>
+</html>
