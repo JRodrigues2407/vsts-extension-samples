@@ -41,3 +41,4 @@ C:\Users\jairo.rodrigues\Repo\Test_Command\HTel\C#\ContosoUniversity\obj\Debug\C
 C:\Users\jairo.rodrigues\Repo\Test_Command\HTel\C#\ContosoUniversity\obj\Debug\ContosoUniversity.csproj.CoreCompileInputs.cache
 C:\Users\jairo.rodrigues\Repo\Test_Command\HTel\C#\ContosoUniversity\obj\Debug\ContosoUniversity.dll
 C:\Users\jairo.rodrigues\Repo\Test_Command\HTel\C#\ContosoUniversity\obj\Debug\ContosoUniversity.pdb
+C:\Users\jairo.rodrigues\Repo\Test_Command\HTel\C#\ContosoUniversity\bin\ContosoUniversity.dll.config
