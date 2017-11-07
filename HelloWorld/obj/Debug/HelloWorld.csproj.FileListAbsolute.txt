@@ -1,0 +1,17 @@
+C:\Users\jairo.rodrigues\Repo\HelloWorld\bin\Debug\HelloWorld.exe.config
+C:\Users\jairo.rodrigues\Repo\HelloWorld\bin\Debug\HelloWorld.exe
+C:\Users\jairo.rodrigues\Repo\HelloWorld\bin\Debug\HelloWorld.pdb
+C:\Users\jairo.rodrigues\Repo\HelloWorld\bin\Debug\HelloWorld.Services.dll
+C:\Users\jairo.rodrigues\Repo\HelloWorld\bin\Debug\HelloWorld.Utilities.dll
+C:\Users\jairo.rodrigues\Repo\HelloWorld\bin\Debug\SimpleInjector.dll
+C:\Users\jairo.rodrigues\Repo\HelloWorld\bin\Debug\SimpleInjector.Extensions.LifetimeScoping.dll
+C:\Users\jairo.rodrigues\Repo\HelloWorld\bin\Debug\HelloWorld.Repo.dll
+C:\Users\jairo.rodrigues\Repo\HelloWorld\bin\Debug\HelloWorld.Services.pdb
+C:\Users\jairo.rodrigues\Repo\HelloWorld\bin\Debug\HelloWorld.Utilities.pdb
+C:\Users\jairo.rodrigues\Repo\HelloWorld\bin\Debug\SimpleInjector.xml
+C:\Users\jairo.rodrigues\Repo\HelloWorld\bin\Debug\SimpleInjector.Extensions.LifetimeScoping.xml
+C:\Users\jairo.rodrigues\Repo\HelloWorld\bin\Debug\HelloWorld.Repo.pdb
+C:\Users\jairo.rodrigues\Repo\HelloWorld\obj\Debug\HelloWorld.csprojResolveAssemblyReference.cache
+C:\Users\jairo.rodrigues\Repo\HelloWorld\obj\Debug\HelloWorld.csproj.CoreCompileInputs.cache
+C:\Users\jairo.rodrigues\Repo\HelloWorld\obj\Debug\HelloWorld.exe
+C:\Users\jairo.rodrigues\Repo\HelloWorld\obj\Debug\HelloWorld.pdb
