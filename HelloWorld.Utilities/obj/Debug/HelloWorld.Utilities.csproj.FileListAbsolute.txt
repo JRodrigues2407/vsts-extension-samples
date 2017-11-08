@@ -1,0 +1,7 @@
+C:\Users\jairo.rodrigues\Repo\HelloWorld.Utilities\bin\Debug\HelloWorld.Utilities.dll
+C:\Users\jairo.rodrigues\Repo\HelloWorld.Utilities\bin\Debug\HelloWorld.Utilities.pdb
+C:\Users\jairo.rodrigues\Repo\HelloWorld.Utilities\bin\Debug\SimpleInjector.dll
+C:\Users\jairo.rodrigues\Repo\HelloWorld.Utilities\bin\Debug\SimpleInjector.xml
+C:\Users\jairo.rodrigues\Repo\HelloWorld.Utilities\obj\Debug\HelloWorld.Utilities.csproj.CoreCompileInputs.cache
+C:\Users\jairo.rodrigues\Repo\HelloWorld.Utilities\obj\Debug\HelloWorld.Utilities.dll
+C:\Users\jairo.rodrigues\Repo\HelloWorld.Utilities\obj\Debug\HelloWorld.Utilities.pdb
