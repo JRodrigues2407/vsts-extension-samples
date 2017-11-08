@@ -1,3 +1,4 @@
+C:\Users\jairo.rodrigues\Repo\Test_Command\HTel\C#\ContosoUniversity\bin\ContosoUniversity.dll.config
 C:\Users\jairo.rodrigues\Repo\Test_Command\HTel\C#\ContosoUniversity\bin\ContosoUniversity.dll
 C:\Users\jairo.rodrigues\Repo\Test_Command\HTel\C#\ContosoUniversity\bin\ContosoUniversity.pdb
 C:\Users\jairo.rodrigues\Repo\Test_Command\HTel\C#\ContosoUniversity\bin\ContosoUniversity.dll.CodeAnalysisLog.xml
@@ -30,7 +31,6 @@ C:\Users\jairo.rodrigues\Repo\Test_Command\HTel\C#\ContosoUniversity\bin\System.
 C:\Users\jairo.rodrigues\Repo\Test_Command\HTel\C#\ContosoUniversity\bin\System.Web.WebPages.Razor.xml
 C:\Users\jairo.rodrigues\Repo\Test_Command\HTel\C#\ContosoUniversity\bin\Antlr3.Runtime.pdb
 C:\Users\jairo.rodrigues\Repo\Test_Command\HTel\C#\ContosoUniversity\bin\Newtonsoft.Json.xml
-C:\Users\jairo.rodrigues\Repo\Test_Command\HTel\C#\ContosoUniversity\obj\Debug\ContosoUniversity.csprojResolveAssemblyReference.cache
 C:\Users\jairo.rodrigues\Repo\Test_Command\HTel\C#\ContosoUniversity\obj\Debug\ContosoUniversity.Migrations.InitialCreate.resources
 C:\Users\jairo.rodrigues\Repo\Test_Command\HTel\C#\ContosoUniversity\obj\Debug\ContosoUniversity.Migrations.MaxLengthOnNames.resources
 C:\Users\jairo.rodrigues\Repo\Test_Command\HTel\C#\ContosoUniversity\obj\Debug\ContosoUniversity.Migrations.ComplexDataModel.resources
@@ -41,4 +41,3 @@ C:\Users\jairo.rodrigues\Repo\Test_Command\HTel\C#\ContosoUniversity\obj\Debug\C
 C:\Users\jairo.rodrigues\Repo\Test_Command\HTel\C#\ContosoUniversity\obj\Debug\ContosoUniversity.csproj.CoreCompileInputs.cache
 C:\Users\jairo.rodrigues\Repo\Test_Command\HTel\C#\ContosoUniversity\obj\Debug\ContosoUniversity.dll
 C:\Users\jairo.rodrigues\Repo\Test_Command\HTel\C#\ContosoUniversity\obj\Debug\ContosoUniversity.pdb
-C:\Users\jairo.rodrigues\Repo\Test_Command\HTel\C#\ContosoUniversity\bin\ContosoUniversity.dll.config
